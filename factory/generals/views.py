@@ -1,9 +1,4 @@
-from flask import render_template, Blueprint, redirect, url_for, request, abort, jsonify
-from factory import db
-from threading import Lock
-import random
-import requests
-import json
+from flask import render_template, Blueprint, jsonify
 from factory.models import Price
 
 endpoint = Blueprint('endpoint', __name__)

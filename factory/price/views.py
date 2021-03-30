@@ -1,9 +1,7 @@
-from flask import render_template, Blueprint, redirect, url_for, request, abort, jsonify
+from flask import render_template, Blueprint
 from factory import db
 from factory.models import Price
-from threading import Lock
 import random
-import datetime
 import schedule
 import time
 
